@@ -1,0 +1,57 @@
+﻿生成启动时间为 2017/3/22 15:10:31。
+     1>项目“E:\SeetaFaceEngine-master\FaceDetection\examples\FaceDetection\FaceDetection.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D FACEDETECTION_EXPORTS /D SEETA_EXPORTS /D USE_OPENMP /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt ..\..\hi_ive_src\sample_assist.cpp ..\..\hi_ive_src\sample_file.cpp ..\..\src\classifier\lab_boosted_classifier.cpp ..\..\src\classifier\mlp.cpp ..\..\src\classifier\surf_mlp.cpp ..\..\src\face_detection.cpp ..\..\src\feat\lab_feature_map.cpp ..\..\src\feat\surf_feature_map.cpp ..\..\src\fust.cpp ..\..\src\Integ.cpp ..\..\src\io\lab_boost_model_reader.cpp ..\..\src\io\surf_mlp_model_reader.cpp ..\..\src\util\image_pyramid.cpp ..\..\src\util\nms.cpp
+         nms.cpp
+         image_pyramid.cpp
+         surf_mlp_model_reader.cpp
+     1>E:\SeetaFaceEngine-master\FaceDetection\include\classifier/surf_mlp.h(57): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“seeta::fd::ClassifierType”
+         lab_boost_model_reader.cpp
+     1>E:\SeetaFaceEngine-master\FaceDetection\include\classifier/lab_boosted_classifier.h(86): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“seeta::fd::ClassifierType”
+         Integ.cpp
+         fust.cpp
+     1>E:\SeetaFaceEngine-master\FaceDetection\include\classifier/lab_boosted_classifier.h(86): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“seeta::fd::ClassifierType”
+     1>E:\SeetaFaceEngine-master\FaceDetection\include\classifier/surf_mlp.h(57): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“seeta::fd::ClassifierType”
+     1>..\..\src\fust.cpp(273): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“seeta::fd::ClassifierType”
+     1>..\..\src\fust.cpp(276): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“seeta::fd::ClassifierType”
+     1>..\..\src\fust.cpp(289): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“seeta::fd::ClassifierType”
+     1>..\..\src\fust.cpp(292): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“seeta::fd::ClassifierType”
+     1>..\..\src\fust.cpp(305): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“seeta::fd::ClassifierType”
+     1>..\..\src\fust.cpp(308): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“seeta::fd::ClassifierType”
+         surf_feature_map.cpp
+         lab_feature_map.cpp
+         face_detection.cpp
+         surf_mlp.cpp
+     1>E:\SeetaFaceEngine-master\FaceDetection\include\classifier/surf_mlp.h(57): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“seeta::fd::ClassifierType”
+         mlp.cpp
+         lab_boosted_classifier.cpp
+     1>E:\SeetaFaceEngine-master\FaceDetection\include\classifier/lab_boosted_classifier.h(86): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“seeta::fd::ClassifierType”
+         sample_file.cpp
+         sample_assist.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"x64\Debug\FaceDetection.dll.embed.manifest.res" x64\Debug\FaceDetection_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\SeetaFaceEngine-master\FaceDetection\examples\x64\Debug\FaceDetection.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\FaceDetection.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\SeetaFaceEngine-master\FaceDetection\examples\x64\Debug\FaceDetection.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\SeetaFaceEngine-master\FaceDetection\examples\x64\Debug\FaceDetection.lib" /MACHINE:X64 /DLL x64\Debug\FaceDetection.dll.embed.manifest.res
+         x64\Debug\sample_assist.obj
+         x64\Debug\sample_file.obj
+         x64\Debug\lab_boosted_classifier.obj
+         x64\Debug\mlp.obj
+         x64\Debug\surf_mlp.obj
+         x64\Debug\face_detection.obj
+         x64\Debug\lab_feature_map.obj
+         x64\Debug\surf_feature_map.obj
+         x64\Debug\fust.obj
+         x64\Debug\Integ.obj
+         x64\Debug\lab_boost_model_reader.obj
+         x64\Debug\surf_mlp_model_reader.obj
+         x64\Debug\image_pyramid.obj
+         x64\Debug\nms.obj
+            正在创建库 E:\SeetaFaceEngine-master\FaceDetection\examples\x64\Debug\FaceDetection.lib 和对象 E:\SeetaFaceEngine-master\FaceDetection\examples\x64\Debug\FaceDetection.exp
+     1>Integ.obj : error LNK2019: 无法解析的外部符号 HI_MPI_IVE_Integ，该符号在函数 "void __cdecl Integ(enum hiIVE_INTEG_OUT_CTRL_E)" (?Integ@@YAXW4hiIVE_INTEG_OUT_CTRL_E@@@Z) 中被引用
+     1>E:\SeetaFaceEngine-master\FaceDetection\examples\x64\Debug\FaceDetection.dll : fatal error LNK1120: 1 个无法解析的外部命令
+     1>已完成生成项目“E:\SeetaFaceEngine-master\FaceDetection\examples\FaceDetection\FaceDetection.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:06.25

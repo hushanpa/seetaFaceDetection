@@ -1,0 +1,65 @@
+﻿生成启动时间为 2017/3/22 16:12:02。
+     1>项目“E:\SeetaFaceEngine-master\FaceDetection\examples\FaceDetection\FaceDetection.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IE:\opencv\build\include /I..\..\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D FACEDETECTION_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\hi_ive_src\sample_assist.cpp ..\..\hi_ive_src\sample_file.cpp ..\..\src\classifier\lab_boosted_classifier.cpp ..\..\src\classifier\mlp.cpp ..\..\src\classifier\surf_mlp.cpp ..\..\src\face_detection.cpp ..\..\src\feat\lab_feature_map.cpp ..\..\src\feat\surf_feature_map.cpp ..\..\src\fust.cpp ..\..\src\Integ.cpp ..\..\src\io\lab_boost_model_reader.cpp ..\..\src\io\surf_mlp_model_reader.cpp ..\..\src\util\image_pyramid.cpp ..\..\src\util\nms.cpp
+         nms.cpp
+         image_pyramid.cpp
+         surf_mlp_model_reader.cpp
+         lab_boost_model_reader.cpp
+         Integ.cpp
+         fust.cpp
+         surf_feature_map.cpp
+     1>e:\seetafaceengine-master\facedetection\src\feat\surf_feature_map.cpp(143): warning C4018: “<”: 有符号/无符号不匹配
+         lab_feature_map.cpp
+         face_detection.cpp
+     1>e:\seetafaceengine-master\facedetection\src\face_detection.cpp(73): warning C4273: “seeta::FaceDetection::FaceDetection”: dll 链接不一致
+                 e:\seetafaceengine-master\facedetection\include\face_detection.h(44) : 参见“{ctor}”的前一个定义
+     1>e:\seetafaceengine-master\facedetection\src\face_detection.cpp(77): warning C4273: “seeta::FaceDetection::~FaceDetection”: dll 链接不一致
+                 e:\seetafaceengine-master\facedetection\include\face_detection.h(45) : 参见“{dtor}”的前一个定义
+     1>e:\seetafaceengine-master\facedetection\src\face_detection.cpp(83): warning C4273: “seeta::FaceDetection::Detect”: dll 链接不一致
+                 e:\seetafaceengine-master\facedetection\include\face_detection.h(54) : 参见“Detect”的前一个定义
+     1>e:\seetafaceengine-master\facedetection\src\face_detection.cpp(101): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\seetafaceengine-master\facedetection\src\face_detection.cpp(111): warning C4273: “seeta::FaceDetection::SetMinFaceSize”: dll 链接不一致
+                 e:\seetafaceengine-master\facedetection\include\face_detection.h(62) : 参见“SetMinFaceSize”的前一个定义
+     1>e:\seetafaceengine-master\facedetection\src\face_detection.cpp(118): warning C4273: “seeta::FaceDetection::SetMaxFaceSize”: dll 链接不一致
+                 e:\seetafaceengine-master\facedetection\include\face_detection.h(70) : 参见“SetMaxFaceSize”的前一个定义
+     1>e:\seetafaceengine-master\facedetection\src\face_detection.cpp(123): warning C4273: “seeta::FaceDetection::SetImagePyramidScaleFactor”: dll 链接不一致
+                 e:\seetafaceengine-master\facedetection\include\face_detection.h(79) : 参见“SetImagePyramidScaleFactor”的前一个定义
+     1>e:\seetafaceengine-master\facedetection\src\face_detection.cpp(128): warning C4273: “seeta::FaceDetection::SetWindowStep”: dll 链接不一致
+                 e:\seetafaceengine-master\facedetection\include\face_detection.h(87) : 参见“SetWindowStep”的前一个定义
+     1>e:\seetafaceengine-master\facedetection\src\face_detection.cpp(135): warning C4273: “seeta::FaceDetection::SetScoreThresh”: dll 链接不一致
+                 e:\seetafaceengine-master\facedetection\include\face_detection.h(96) : 参见“SetScoreThresh”的前一个定义
+         surf_mlp.cpp
+         mlp.cpp
+         lab_boosted_classifier.cpp
+         sample_file.cpp
+         sample_assist.cpp
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\SeetaFaceEngine-master\FaceDetection\examples\Debug\FaceDetection.dll" /INCREMENTAL /NOLOGO /LIBPATH:E:\opencv\build\lib\Release /LIBPATH:..\..\lib opencv_highgui247d.lib opencv_imgproc247d.lib opencv_core247d.lib ive_clib2.1d.lib opencv_calib3d247.lib opencv_contrib247.lib opencv_core247.lib opencv_features2d247.lib opencv_flann247.lib opencv_gpu247.lib opencv_highgui247.lib opencv_imgproc247.lib opencv_legacy247.lib opencv_ml247.lib opencv_nonfree247.lib opencv_objdetect247.lib opencv_ocl247.lib opencv_photo247.lib opencv_stitching247.lib opencv_superres247.lib opencv_ts247.lib opencv_video247.lib opencv_videostab247.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\SeetaFaceEngine-master\FaceDetection\examples\Debug\FaceDetection.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\SeetaFaceEngine-master\FaceDetection\examples\Debug\FaceDetection.lib" /MACHINE:X86 /DLL Debug\sample_assist.obj
+         Debug\sample_file.obj
+         Debug\lab_boosted_classifier.obj
+         Debug\mlp.obj
+         Debug\surf_mlp.obj
+         Debug\face_detection.obj
+         Debug\lab_feature_map.obj
+         Debug\surf_feature_map.obj
+         Debug\fust.obj
+         Debug\Integ.obj
+         Debug\lab_boost_model_reader.obj
+         Debug\surf_mlp_model_reader.obj
+         Debug\image_pyramid.obj
+         Debug\nms.obj
+            正在创建库 E:\SeetaFaceEngine-master\FaceDetection\examples\Debug\FaceDetection.lib 和对象 E:\SeetaFaceEngine-master\FaceDetection\examples\Debug\FaceDetection.exp
+     1>ive_clib2.1d.lib(inner_comm.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ive_clib2.1d.lib(inner_comm.obj)”或在“E:\SeetaFaceEngine-master\FaceDetection\examples\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ive_clib2.1d.lib(inner_comm_user.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ive_clib2.1d.lib(inner_comm_user.obj)”或在“E:\SeetaFaceEngine-master\FaceDetection\examples\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ive_clib2.1d.lib(check_param.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ive_clib2.1d.lib(check_param.obj)”或在“E:\SeetaFaceEngine-master\FaceDetection\examples\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ive_clib2.1d.lib(const_tables.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ive_clib2.1d.lib(const_tables.obj)”或在“E:\SeetaFaceEngine-master\FaceDetection\examples\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ive_clib2.1d.lib(hardware.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ive_clib2.1d.lib(hardware.obj)”或在“E:\SeetaFaceEngine-master\FaceDetection\examples\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ive_clib2.1d.lib(ive_clib.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ive_clib2.1d.lib(ive_clib.obj)”或在“E:\SeetaFaceEngine-master\FaceDetection\examples\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         FaceDetection.vcxproj -> E:\SeetaFaceEngine-master\FaceDetection\examples\Debug\FaceDetection.dll
+     1>已完成生成项目“E:\SeetaFaceEngine-master\FaceDetection\examples\FaceDetection\FaceDetection.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.47

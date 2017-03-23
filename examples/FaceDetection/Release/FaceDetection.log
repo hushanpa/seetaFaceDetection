@@ -1,0 +1,37 @@
+﻿生成启动时间为 2017/3/23 11:14:34。
+     1>项目“E:\SeetaFaceEngine-master\FaceDetection\examples\FaceDetection\FaceDetection.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IE:\opencv\build\include /I..\..\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D FACEDETECTION_EXPORTS /D USE_OPENMP /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\feat\lab_feature_map.cpp
+         lab_feature_map.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\SeetaFaceEngine-master\FaceDetection\examples\Release\FaceDetection.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:E:\opencv\build\lib\Release /LIBPATH:..\..\lib opencv_highgui247.lib opencv_imgproc247.lib opencv_core247.lib ive_clib2.1.lib opencv_calib3d247.lib opencv_contrib247.lib opencv_core247.lib opencv_features2d247.lib opencv_flann247.lib opencv_gpu247.lib opencv_highgui247.lib opencv_imgproc247.lib opencv_legacy247.lib opencv_ml247.lib opencv_nonfree247.lib opencv_objdetect247.lib opencv_ocl247.lib opencv_photo247.lib opencv_stitching247.lib opencv_superres247.lib opencv_ts247.lib opencv_video247.lib opencv_videostab247.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\FaceDetection.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\SeetaFaceEngine-master\FaceDetection\examples\Release\FaceDetection.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\SeetaFaceEngine-master\FaceDetection\examples\Release\FaceDetection.lib" /MACHINE:X86 /DLL Release\Integ.obj
+         Release\sample_assist.obj
+         Release\sample_file.obj
+         Release\lab_boosted_classifier.obj
+         Release\mlp.obj
+         Release\surf_mlp.obj
+         Release\face_detection.obj
+         Release\lab_feature_map.obj
+         Release\surf_feature_map.obj
+         Release\fust.obj
+         Release\lab_boost_model_reader.obj
+         Release\surf_mlp_model_reader.obj
+         Release\image_pyramid.obj
+         Release\nms.obj
+            正在创建库 E:\SeetaFaceEngine-master\FaceDetection\examples\Release\FaceDetection.lib 和对象 E:\SeetaFaceEngine-master\FaceDetection\examples\Release\FaceDetection.exp
+         正在生成代码
+         已完成代码的生成
+     1>ive_clib2.1.lib(ive_clib.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ive_clib2.1.lib(ive_clib.obj)”或在“E:\SeetaFaceEngine-master\FaceDetection\examples\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ive_clib2.1.lib(check_param.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ive_clib2.1.lib(check_param.obj)”或在“E:\SeetaFaceEngine-master\FaceDetection\examples\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ive_clib2.1.lib(inner_comm_user.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ive_clib2.1.lib(inner_comm_user.obj)”或在“E:\SeetaFaceEngine-master\FaceDetection\examples\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ive_clib2.1.lib(hardware.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ive_clib2.1.lib(hardware.obj)”或在“E:\SeetaFaceEngine-master\FaceDetection\examples\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ive_clib2.1.lib(inner_comm.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ive_clib2.1.lib(inner_comm.obj)”或在“E:\SeetaFaceEngine-master\FaceDetection\examples\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ive_clib2.1.lib(const_tables.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“ive_clib2.1.lib(const_tables.obj)”或在“E:\SeetaFaceEngine-master\FaceDetection\examples\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         FaceDetection.vcxproj -> E:\SeetaFaceEngine-master\FaceDetection\examples\Release\FaceDetection.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\SeetaFaceEngine-master\FaceDetection\examples\Release\FaceDetection.dll;#2" /manifest Release\FaceDetection.dll.intermediate.manifest
+     1>已完成生成项目“E:\SeetaFaceEngine-master\FaceDetection\examples\FaceDetection\FaceDetection.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.89
